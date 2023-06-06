@@ -1,61 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Hawaii</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-          <div class="container-fluid">
-              <span class="navbar-brand mb-0 h1">Hawaii</span>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="homeButton" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="citiesButton" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Cities
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="haliewa.html" class="dropdown-item">Haliewa</a></li>
-                      <li><a href="honolulu.html" class="dropdown-item">Honolulu</a></li>
-                      <li><a href="kailua.html" class="dropdown-item">Kailua</a></li>
-                      <li><a href="kapolei.html" class="dropdown-item">Kapolei</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="container-fluid" id="mainheader">
-            <strong><h1>Hawaii, the Rainbow State</h1></strong>
-          </div>
-          <div class="container-fluid">
-            <img class="hawaii-picture" src="images/Hawaiian islands.jpg" alt="Picture of Hawaiian Islands">
-          </div>
-          <div class="container-fluid" id="mainBody">
-            <h3>What makes Hawaii so special?</h3>
-            <p>
-              <aside>
-                <h4>Side note:</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              </aside>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hawaii</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Hawaii</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="homeButton" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="citiesButton" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="haliewa.html" class="dropdown-item">Haliewa</a></li>
+              <li><a href="honolulu.html" class="dropdown-item">Honolulu</a></li>
+              <li><a href="kailua.html" class="dropdown-item">Kailua</a></li>
+              <li><a href="kapolei.html" class="dropdown-item">Kapolei</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" id="contactButton" href="contact.html" target="_blank">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--<div class="container-fluid">
+      <h4><a href="haliewa.html">Haliewa</a></h4>
+      <h4><a href="honolulu.html">Honolulu</a></h4>
+      <h4><a href="kailua.html">Kailua</a></h4>
+      <h4><a href="kapolei.html">Kapolei</a></h4>
+  </div>-->
+
+  <div class="container-fluid" id="mainheader">
+    <header>
+    <strong>
+      <h1>Hawaii, the Aloha State</h1>
+    </strong></header>
+  </div>
+  <div class="container-fluid">
+    <section>
+    <img class="hawaii-picture" src="images/Hawaiian islands.jpg" alt="Picture of Hawaiian Islands">
+  </div>
+  <div class="container-fluid" id="mainBody">
+    <h3>What makes Hawaii so special?</h3>
+    <p>
+    <aside>
+      <h4>Side note:</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+    </aside>
+    Hawaii, often referred to as the "Paradise of the Pacific," is an archipelago composed of eight main islands located in the Central Pacific Ocean. Known for its breathtaking           natural beauty, warm tropical climate, and unique cultural heritage, Hawaii is a popular destination that captivates visitors from around the world.
+    <br>
+    <br>
+    The islands of Hawaii offer diverse landscapes that range from pristine beaches with turquoise waters to dramatic volcanic peaks and lush rainforests. The most famous island is        Oahu, home to the state capital of Honolulu and the iconic Waikiki Beach. Here, visitors can experience a perfect blend of urban amenities and natural wonders, with opportunities      for surfing, snorkeling, and exploring historical sites like Pearl Harbor.
+    <br>
+    <br>
+    In addition to its natural and cultural wonders, Hawaii offers a wide range of outdoor activities, including hiking, snorkeling, scuba diving, surfing, and whale watching. The         islands are also a paradise for food lovers, with a vibrant culinary scene that showcases a fusion of Hawaiian, Asian, and Pacific Rim flavors.</p>
+
+  <strong><p>List of the the islands from largest to smallest:</p></strong>
+    <ol>
+      <li>Hawaii</li>
+      <li>Maui</li>
+      <li>Oahu</li>
+      <li>Kauai</li>
+      <li>Molokai</li>
+      <li>Lanai</li>
+      <li>Niihau</li>
+      <li>Kahoolawe</li>
+    </ol>
+  </section>
+  </div>
+
+  <footer>
+    <div class="container-fluid" id="contactLink">
+      <p>If you'd like more information, please fill out our contact form <a href="contact.html" target="_blank">here</a>.
+      </p>
+    </div>
+  </footer>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
