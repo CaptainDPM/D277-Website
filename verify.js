@@ -1,8 +1,11 @@
 function validateForm() {
   let email1 = document.getElementById("email1");
   let email2 = document.getElementById("email2");
-  if (email1 !== email2) {
-    alert("Emails do not match.");
-    return false;
-  }
+  let emailError = document.getElementById("emailError");
+  
+    if (email1.value !== email2.value) {
+      emailError.textContent = "Email addresses do not match.";
+      emailError.style.color = "red";
+    }
+  console.log("Emails do not match.")
 }

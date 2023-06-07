@@ -33,7 +33,7 @@
               Cities
             </a>
             <ul class="dropdown-menu">
-              <li><a href="haliewa.html" class="dropdown-item">Haliewa</a></li>
+              <li><a href="haliewa.html" class="dropdown-item">Haleiwa</a></li>
               <li><a href="honolulu.html" class="dropdown-item">Honolulu</a></li>
               <li><a href="kailua.html" class="dropdown-item">Kailua</a></li>
               <li><a href="kapolei.html" class="dropdown-item">Kapolei</a></li>
@@ -53,7 +53,7 @@
 
   <div class="container-fluid" id="mainBody">
     <section>
-      <form id="contactForm" onsubmit="return validateForm()" method="post">
+      <form id="contactForm" method="post">
         <div class="mb-3">
           <label for="firstName" class="form-label">First Name</label>
           <input type="text" class="form-control" placeholder="First Name">
@@ -74,7 +74,8 @@
           <label for="summary" class="form-label">Summary</label>
           <input type="text" class="form-control" placeholder="Please explain what you are contacting for.">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="validateForm()">Submit</button>
+        <strong><span id="emailError"></span></strong>
       </form>
     </section>
   </div>

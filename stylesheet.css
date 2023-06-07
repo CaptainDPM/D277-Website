@@ -50,8 +50,14 @@ footer {
 
 #mainBody {
   width: 50%;
+  position: relative;
+}
+
+#islandList {
+  position: absolute;
 }
 
 #contactLink {
   width: 50%;
+  position: bottom;
 }
