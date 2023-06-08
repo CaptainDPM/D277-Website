@@ -7,5 +7,7 @@ function validateForm() {
       emailError.textContent = "Email addresses do not match.";
       emailError.style.color = "red";
     }
+    e.preventdefault();
+    
   console.log("Emails do not match.")
 }
