@@ -15,6 +15,10 @@ aside {
   font-style: italic;
 }
 
+table, th, td {
+  border: 1.5px solid black;
+}
+
 footer {
   text-align: center;
   background-color: lightgray;
@@ -55,9 +59,18 @@ footer {
 
 #islandList {
   position: absolute;
+  left: 0;
+  width: 50%;
 }
 
 #contactLink {
   width: 50%;
   position: bottom;
+}
+
+#contactTable {
+  width: 50%;
+  margin-top: 50px;
+  text-align: left;
+  right: 50;
 }
