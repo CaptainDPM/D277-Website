@@ -29,19 +29,13 @@ footer {
   background-color: black;
 }
 
-.hawaii-picture {
-  width: 75%;
-  padding-top: 50px;
-  padding-left: 25%;
-  padding-bottom: 50px;
-}
-
 #mainheader {
   text-align: center;
   padding-top: 30px;
 }
 
 #headerInfo {
+  align-content: center;
   margin-bottom: 0;
   padding-bottom: 20px;
   color: whitesmoke;
@@ -63,12 +57,6 @@ footer {
   position: relative;
 }
 
-#islandList {
-  position: absolute;
-  left: 0;
-  width: 50%;
-}
-
 #contactLink {
   width: 50%;
   position: bottom;
@@ -81,18 +69,33 @@ footer {
   right: 50;
 }
 
+#firstRow {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#secondRow {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#extraSpace {
+  height: 500px;
+}
+
 .card {
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
 
-.parallax {
-  background-image: url("images/Code Background.jpg");
 
-  height: 100%;
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-100;
 }
