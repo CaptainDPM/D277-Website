@@ -1,6 +1,5 @@
 body {
   font-family: Ubuntu;
-  background-color: rgb(197, 237, 250);
 }
 
 aside {
@@ -42,6 +41,13 @@ footer {
   padding-top: 30px;
 }
 
+#headerInfo {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  text-shadow: 5px;
+}
+
 #homeButton:hover, #contactButton:hover {
   color: aliceblue;
   background-color: black;
@@ -53,7 +59,7 @@ footer {
 }
 
 #mainBody {
-  width: 50%;
+  width: 100%;
   position: relative;
 }
 
@@ -77,6 +83,16 @@ footer {
 
 .card {
   padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
+}
+
+.parallax {
+  background-image: url("images/Code Background.jpg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
