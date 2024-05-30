@@ -36,6 +36,8 @@ footer {
 }
 
 #headerInfo {
+  width: 50%;
+  margin-left: 25%;
   align-content: center;
   margin-bottom: 0;
   padding-bottom: 20px;
