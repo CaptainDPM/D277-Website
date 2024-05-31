@@ -14,10 +14,6 @@ aside {
   font-style: italic;
 }
 
-table, th, td {
-  border: 1.5px solid black;
-}
-
 footer {
   text-align: center;
   background-color: lightgray;
